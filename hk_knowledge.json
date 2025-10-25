@@ -1,0 +1,111 @@
+{
+  "q": "¿Es un jefe o te enfrentas a él/ella en combate principal?",
+  "yes": {
+    "q": "¿Es una entidad divina o regente del Reino?",
+    "yes": {
+      "q": "¿Está asociada directamente a la luz y los sueños?",
+      "yes": {
+        "guess": "Radiancia"
+      },
+      "no": {
+        "guess": "Rey Pálido"
+      }
+    },
+    "no": {
+      "q": "¿Se presenta en plural o en equipo durante el combate?",
+      "yes": {
+        "q": "Es el jefe final del tercer coliseo?",
+        "yes": {
+          "guess": "Domador de dioses"
+        },
+        "no": {
+          "guess": "Señores Mantis"
+        }
+      },
+      "no": {
+        "q": "¿Usa una aguja e hilo en combate?",
+        "yes": {
+          "guess": "Hornet"
+        },
+        "no": {
+          "q": "¿Lidera una troupe y es teatral?",
+          "yes": {
+            "guess": "Grimm"
+          },
+          "no": {
+            "q": "¿Es un recipiente silencioso sellado?",
+            "yes": {
+              "guess": "Hollow Knight"
+            },
+            "no": {
+              "q": "Es el una armadura  controlada por un debil gusano?",
+              "yes": {
+                "guess": "Falso Caballero"
+              },
+              "no": {
+                "guess": "Nosk"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "no": {
+    "q": "¿Es cartógrafo y tararea mientras hace mapas?",
+    "yes": {
+      "guess": "Cornifer"
+    },
+    "no": {
+      "q": "¿Es fanfarrón y presume 57 preceptos?",
+      "yes": {
+        "guess": "Zote el Poderoso"
+      },
+      "no": {
+        "q": "¿Es un artista y maestro del aguijón retirado?",
+        "yes": {
+          "guess": "Maestro del Aguijón Sheo"
+        },
+        "no": {
+          "q": "¿Es aventurera con gran armadura?",
+          "yes": {
+            "guess": "Cloth"
+          },
+          "no": {
+            "q": "¿Es un explorador amable con casco azul?",
+            "yes": {
+              "guess": "Quirrel"
+            },
+            "no": {
+              "q": "¿Es una joven romántica que admira a Zote?",
+              "yes": {
+                "guess": "Bretta"
+              },
+              "no": {
+                "q": "¿Busca gloria en el coliseo y tiene un destino trágico?",
+                "yes": {
+                  "guess": "Tiso"
+                },
+                "no": {
+                  "q": "es un maestro del aguijon y se encuentra en limites del reino?",
+                  "yes": {
+                    "guess": "Oro Maestro del Aguijon"
+                  },
+                  "no": {
+                    "q": "Tu personaje te da una mision de entrgar una Flor delicada a la tumba de su amado?",
+                    "yes": {
+                      "guess": "Doliente Gris"
+                    },
+                    "no": {
+                      "guess": "El Caballero"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
